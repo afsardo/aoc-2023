@@ -7,7 +7,6 @@ fn main() {
 
 fn part_1() {
     let input = std::fs::read_to_string("src/part-1.input").unwrap();
-
     let lines: Vec<&str> = input.split("\n").collect();
 
     let mut sum = 0;
@@ -36,6 +35,7 @@ fn find_digit(chars: &mut IntoIter<char>) -> u32 {
 }
 
 fn part_2() {
+    let input = std::fs::read_to_string("src/part-2.input").unwrap();
     let lines: Vec<&str> = input.split("\n").collect();
 
     let mut sum = 0;
